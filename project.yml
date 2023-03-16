@@ -1,0 +1,8 @@
+environment:
+  RECAPTCHA_SECRET_KEY: ${RECAPTCHA_SECRET_KEY}
+  RECAPTCHA_REQUIRED_V3_SCORE: ${RECAPTCHA_REQUIRED_V3_SCORE}
+packages:
+  - name: recaptcha
+    actions:
+      - name: recaptcha
+        runtime: 'python:default'
