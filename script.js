@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    const apiUrl = 'https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-04503e26-6c2d-4463-8e0f-d7408616883f/recaptcha/recaptcha'
+    const apiUrl = 'https://recaptcha-functions-demo-zeeyh.ondigitalocean.app/digitalocean-functions-python-r2/recaptcha/recaptcha'
     const reCaptchaKey = '6LeYKQUlAAAAAIkK4cvk5Q5loTO-z_MKenVoqHIG'
 
     let notyf = new Notyf({
