@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    const apiUrl = 'https://recaptcha-functions-demo-zeeyh.ondigitalocean.app/digitalocean-functions-python-r2/recaptcha/recaptcha'
+    const apiUrl = 'https://recaptcha-functions-demo-zeeyh.ondigitalocean.app/functions/recaptcha/recaptcha'
     const reCaptchaKey = '6LeYKQUlAAAAAIkK4cvk5Q5loTO-z_MKenVoqHIG'
 
     let notyf = new Notyf({
